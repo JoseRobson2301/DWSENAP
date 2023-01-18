@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Paytone+One&family=Playfair+Display&display=swap');
 
 *{
     background-color: #aeffff;
@@ -15,15 +15,15 @@
   
   label{
     font-size: 2rem;
-    font-family: 'Paytone One';
+    font-family: 'Playfair Display';
   }
   input{
     display: block;
     padding-bottom: 0.3rem;
-    font-family: 'Paytone One';
+    font-family: 'Playfair Display';
   }
   
   .lockscreen  h1 {
     text-align: center;
-    font-family: 'Paytone One';
+    font-family: 'Playfair Display';
   }
