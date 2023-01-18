@@ -1,0 +1,4 @@
+.lockscreen{
+    position: absolute;
+    transform: translate(50%, 50%);
+}
