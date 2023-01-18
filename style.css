@@ -5,7 +5,7 @@
   .lockscreen {
     position: absolute;
     transform: translate(20rem, 10rem);
-    border: cyan 1rem solid;
+    border: black 0.1rem solid;
     padding: 5rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
