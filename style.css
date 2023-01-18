@@ -11,6 +11,10 @@
     padding-bottom: 6rem;
   }
   
+  input{
+    display: block;
+  }
+
   .lockscreen  h1 {
     text-align: center;
   }
