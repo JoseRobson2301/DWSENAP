@@ -11,10 +11,14 @@
     padding-bottom: 6rem;
   }
   
+  label{
+    font-size: 2rem;
+  }
   input{
     display: block;
+    padding-bottom: 0.3rem;
   }
-
+  
   .lockscreen  h1 {
     text-align: center;
   }
