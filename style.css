@@ -3,7 +3,7 @@
 *{
     background-color: #aeffff;
   }
-  
+
   .lockscreen {
     position: absolute;
     transform: translate(22rem, 8rem);
@@ -12,18 +12,27 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
-  
+
   label{
     font-size: 2rem;
     font-family: 'Playfair Display';
   }
   input{
-    display: block;
     padding-bottom: 0.3rem;
     font-family: 'Playfair Display';
+    position: absolute;
+    left: 12.5rem;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   .lockscreen  h1 {
     text-align: center;
     font-family: 'Playfair Display';
   }
+
+.lockscreen label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
