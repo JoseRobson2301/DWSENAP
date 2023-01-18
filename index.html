@@ -8,10 +8,10 @@
   <body>
     <form action="https://api.sheetmonkey.io/form/a1wT4XqBdbdCo9R6trJPwu" method="post">
       <label for="username">Username:</label>
-      <input type="text" id="username" name="username">
+      <input type="text" id="username" class="input-form" name="username">
       <br>
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password">
+      <input type="password" id="password" class="input-form" name="password">
       <br>
       <button type="submit">Login</button>
 <!--       <br>
@@ -19,5 +19,19 @@
       <br>
       <a href="#">Sign up</a>       -->
     </form>
+
+    <script>
+      let input = document.getElementsByName("input-form");
+      for(let input of inputs){
+        input.addEventListener("blur", function(){
+          if(input.value.trim() != ==){
+              input.classList.add("has-val");
+          } else {
+              input.classList.remove("has-val");
+          }
+        });
+      }
+    </script>
+    
   </body>
 </html>
