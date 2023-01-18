@@ -1,5 +1,16 @@
-h1{
+*{
+    background-color: #aeffff;
+  }
+  
+  .lockscreen {
+    position: absolute;
+    transform: translate(20rem, 10rem);
+    border: cyan 1rem solid;
+    padding: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  .lockscreen  h1 {
     text-align: center;
-    background-color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-}
+  }
